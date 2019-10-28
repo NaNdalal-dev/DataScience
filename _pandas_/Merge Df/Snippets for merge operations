@@ -1,0 +1,39 @@
+df1 = pd.DataFrame({
+    "city": ["new york","chicago","orlando"],
+    "temperature": [21,14,35],
+})
+
+df2 = pd.DataFrame({
+    "city": ["chicago","new york","orlando"],
+    "humidity": [65,68,75],
+})
+
+
+
+
+
+
+df1 = pd.DataFrame({
+    "city": ["new york","chicago","orlando", "baltimore"],
+    "temperature": [21,14,35, 38],
+})
+
+df2 = pd.DataFrame({
+    "city": ["chicago","new york","san diego"],
+    "humidity": [65,68,71],
+})
+df2
+
+
+
+ex1 = pd.DataFrame({
+    "city": ["new york","chicago","orlando", "baltimore"],
+    "temperature": [21,14,35,38],
+    "humidity": [65,68,71, 75]
+})
+
+ex2 = pd.DataFrame({
+    "city": ["chicago","new york","san diego"],
+    "temperature": [21,14,35],
+    "humidity": [65,68,71]
+})

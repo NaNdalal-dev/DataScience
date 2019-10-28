@@ -1,0 +1,39 @@
+Weapon,Damage,Ammo,Time to kill(in sec),WeaponType
+Sickle,60,,1.5,Melle
+Crowbar,60,,1.5,Melle
+Machete,60,,1.5,Melle
+Pan,80,,1.5,Melle
+S686,216,12G,,shortgun
+S1897,216,12G,,shortgun
+S12K,198,12G,,shortgun
+Sawed-off,160,12G,0.25,pistol
+P92,35,9mm,0.54,pistol
+P1911,41,0.45,0.75,pistol
+R1895,55,7.62,1.2,pistol
+P18C,23,9mm,0.42,pistol
+R45,55,0.45,0.75,pistol
+M249,45,5.56,0.23,MachineGun
+DP-28,51,7.62,0.33,MachineGun
+UZI,26,9mm,0.29,submachinegun
+UMP9,39,9mm,0.37,submachinegun
+Vector,34,0.45,0.22,submachinegun
+Tommy Gun,40,0.45,0.34,submachinegun
+SKS,53,7.62,0.2,DMR rifle
+VSS,41,9mm,0.26,DMR rifle
+Mini14,46,5.56,0.3,DMR rifle
+Mk14,61,7.62,0.18,DMR rifle
+SLR,58,7.62,0.2,DMR rifle
+QBU,48,5.56,0.945,DMR rifle
+AKM,49,7.62,0.3,AssaultRifle
+M16A4,43,5.56,0.22,AssaultRifle
+SCAR-L,43,5.56,0.29,AssaultRifle
+M416,43,5.56,0.26,AssaultRifle
+GROZA,49,7.62,0.24,AssaultRifle
+AUG,43,5.56,0.26,AssaultRifle
+Kar98K,75,7.62,3.8,BoltAction
+M24,79,7.62,1.8,BoltAction
+AWM,120,300,1.85,BoltAction
+Win94,66,0.45,1.2,BoltAction
+Crossbow,105,Arrows,3.8,Others
+Jump and Punch,38,,4,HandPunch
+Fist,18,,2.97,HandPunch

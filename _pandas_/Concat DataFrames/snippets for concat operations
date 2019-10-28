@@ -1,0 +1,26 @@
+#weather conditions in india
+india_weather = pd.DataFrame({
+    "city": ["mumbai","delhi","banglore"],
+    "temperature": [32,45,30],
+    "humidity": [80, 60, 78]
+})
+
+
+#weather conditions in USA
+us_weather = pd.DataFrame({
+    "city": ["new york","chicago","orlando"],
+    "temperature": [21,14,35],
+    "humidity": [68, 65, 75]
+})
+
+
+
+temperature_df = pd.DataFrame({
+    "city": ["mumbai","delhi","banglore"],
+    "temperature": [32,45,30],
+})
+
+windspeed_df = pd.DataFrame({
+    "city": ["delhi","mumbai","banglore"],
+    "windspeed": [7,12,15],
+})
