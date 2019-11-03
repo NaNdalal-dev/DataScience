@@ -6,7 +6,7 @@ india_weather = pd.DataFrame({
 })
 
 
-#weather conditions in USA
+#weather conditions in USA 
 us_weather = pd.DataFrame({
     "city": ["new york","chicago","orlando"],
     "temperature": [21,14,35],
