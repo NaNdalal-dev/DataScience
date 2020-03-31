@@ -1,2 +1,2 @@
 # DataScience
-All about pandas,matplotlib and numpy modules
+about maths and stats(Machine learning)
