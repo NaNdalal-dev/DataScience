@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car Price Prediction</title>
+</head>
+<body>
+	<div>
+		<center>
+		<h3>
+			Car price prediction:
+		</h3>
+		</center>
+	</div>
+<div>
+	<center>
+		<form action="http://127.0.0.1:5000/result" method="post">
+			<table>
+			<tr>
+				<td>
+					<label for='model'>Select Car Model:</label>
+				</td>
+					
+				</tr>
+				<tr>
+					<td>
+					<select id='model' name="model">
+						<option value='BMW X5'>BMW X5</option>
+						<option value="Audi A5">Audi A5</option>
+						<option value='Mercedez Benz C class'>Mercedez Benz C class</option>	
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<br>
+					<label>Enter Mileage:</label>		
+					</td>
+				</tr>
+				<tr>
+					<td>
+					<input type="number" name="mileage" id='ma' required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<select id='val'  oninput='ma.value=val.value'>
+							<option value="55000">55000</option>
+							<option value="60000">60000</option>
+							<option value="65000">65000</option>
+							<option value="70000">70000</option>
+							<option value="75000">75000</option>
+							<option value="80000">80000</option>
+							<option value="85000">85000</option>
+							<option value="90000">90000</option>
+						</select> 
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<br>
+						<label for='age'>Enter Age of your Car:</label>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+					<input type="number" name="age" id='age' required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<select id='v_age'  oninput='age.value=v_age.value'>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+						</select> 
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<br>
+						<input type="submit" name="sub" value='Predict'>
+					</td>
+				</tr>
+			</table>
+
+		</form>
+	</center>
+</div>
+</body>
+</html>
